@@ -5,9 +5,8 @@ import tempfile
 import demjson3
 import logging.config
 from tweeterpy.utils.request import RequestClient
-from tweeterpy.constants import Path, FeatureSwitch, API_TMP_FILE, LOGGING_CONFIG
+from tweeterpy.constants import Path, FeatureSwitch, API_TMP_FILE
 
-logging.config.dictConfig(LOGGING_CONFIG)
 logger = logging.getLogger(__name__)
 
 dataset_regex = re.compile(

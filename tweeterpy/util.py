@@ -12,7 +12,6 @@ from x_client_transaction.utils import get_ondemand_file_url
 from tweeterpy.constants import Path, PUBLIC_TOKEN, LOGGING_CONFIG, USER_AGENT, API_TMP_FILE
 from dataclasses import dataclass, field, fields, asdict, _MISSING_TYPE
 
-logging.config.dictConfig(LOGGING_CONFIG)
 logger = logging.getLogger(__name__)
 
 

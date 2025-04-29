@@ -2,9 +2,8 @@ import os
 import pickle
 import requests
 import logging.config
-from tweeterpy.constants import DEFAULT_SESSION_DIRECTORY, LOGGING_CONFIG
+from tweeterpy.constants import DEFAULT_SESSION_DIRECTORY
 
-logging.config.dictConfig(LOGGING_CONFIG)
 logger = logging.getLogger(__name__)
 
 

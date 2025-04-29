@@ -13,9 +13,8 @@ from tweeterpy.updater import ApiUpdater
 from tweeterpy.utils.request import RequestClient
 from tweeterpy.utils.logging import set_log_level
 from tweeterpy.utils.session import load_session, save_session
-from tweeterpy.constants import Path, FeatureSwitch, LOGGING_CONFIG
+from tweeterpy.constants import Path, FeatureSwitch
 
-logging.config.dictConfig(LOGGING_CONFIG)
 logger = logging.getLogger(__name__)
 
 

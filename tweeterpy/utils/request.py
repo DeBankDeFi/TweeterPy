@@ -6,7 +6,6 @@ from urllib.parse import urlparse
 from x_client_transaction import ClientTransaction
 from tweeterpy.constants import LOGGING_CONFIG
 
-logging.config.dictConfig(LOGGING_CONFIG)
 logger = logging.getLogger(__name__)
 
 
